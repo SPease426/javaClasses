@@ -6,8 +6,6 @@ public class cityInfo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        char gender = scanner.nextCharAt(0);
-
         System.out.print("Enter the name of City: ");
         String cityName = scanner.next();
         System.out.println(cityName);
