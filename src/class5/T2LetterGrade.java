@@ -12,19 +12,19 @@ public class T2LetterGrade {
 
         switch (letterGrade) {
             case 'A':
-                System.out.println("Excellent work");
+                System.out.println("Excellent");
                 break;
             case 'B':
-                System.out.println("Good work overall");
+                System.out.println("Good");
                 break;
             case 'C':
-                System.out.println("Average job but still room for improvement");
+                System.out.println("Average");
                 break;
             case 'D':
-                System.out.println("This is a bad grade you need to do study more");
+                System.out.println("Bad");
                 break;
             default:
-                System.out.println("This is unacceptable and is considered to be a failure");
+                System.out.println("Not Acceptable");
         }
 
     }
